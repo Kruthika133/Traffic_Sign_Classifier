@@ -30,7 +30,7 @@ The number of unique classes/labels in the data set is 43
  
 My final model consisted of the following layers:
 
-Layer                             Description
+Layer                            Description
 Input                           32x32x3 RGB image
 Gray                            32x32x1 Gray Image
 Normalized                 32x32x1 Normalized Image
@@ -48,7 +48,7 @@ RELU
 Fully Connected              	outputs 43
 Softmax     
 
-3. Hyperparameters:
+4. Hyperparameters:
 To train the model, I used an EPOCHS of 25, BATCH SIZE of 128, learning rate of 0.001
 
 The accuracy on my final model were:
